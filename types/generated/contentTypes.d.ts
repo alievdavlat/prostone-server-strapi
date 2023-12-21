@@ -1015,6 +1015,7 @@ export interface ApiSocialSocial extends Schema.CollectionType {
     singularName: 'social';
     pluralName: 'socials';
     displayName: 'socials';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1022,6 +1023,7 @@ export interface ApiSocialSocial extends Schema.CollectionType {
   attributes: {
     name: Attribute.String;
     icon: Attribute.Media;
+    white_icon: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
