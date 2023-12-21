@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_titles",
+  "info": {
+    "singularName": "section-title",
+    "pluralName": "section-titles",
+    "displayName": "sectionTitles",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "chooseTitle": {
+      "type": "string"
+    },
+    "projectsTitle": {
+      "type": "string"
+    },
+    "productsTitle": {
+      "type": "string"
+    },
+    "partnersTitle": {
+      "type": "string"
+    },
+    "reviewsTitle": {
+      "type": "string"
+    }
+  }
+}

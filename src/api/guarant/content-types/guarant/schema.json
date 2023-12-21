@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "guarants",
+  "info": {
+    "singularName": "guarant",
+    "pluralName": "guarants",
+    "displayName": "guarant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "brands": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
